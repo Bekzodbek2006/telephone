@@ -1,0 +1,92 @@
+/*asosiy qism*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3d3d3d;
+    font-family: monospace;
+}
+/*asosiy qism*/
+/*input-box*/
+#input-box{
+    width: 110px;
+    background-color: #2d61a6;
+    padding-bottom: 35px;
+    border-radius: 5px;
+}
+input{
+    padding: 3px 15px;
+    width:100%;
+    text-align: center;
+    text-transform: capitalize;
+    caret-color: black;
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-family: monospace;
+}
+/*table*/
+table{
+    width: 100%;
+}
+
+table tr td{
+    text-align: center;
+    transition: 0.3s ease;
+    font-weight: 700;
+}
+
+table tr td:hover{
+    color: white;
+    background-color: #3d3d3d;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*table*/
+
+/*footer*/
+#input-box .footer{
+    position: relative;
+}
+#input-box .trash{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    cursor: pointer;
+    color: #3d3d3d;
+    transition: 0.3s ease;
+}
+#input-box .trash:hover{
+    color: #000;
+}
+#input-box .icon{
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    color: black;
+    transition: 0.3s ease;
+}
+#input-box .icon:active{
+    color:#1c1c1c;
+}
+#input-box .delete-left{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    cursor: pointer;
+    color: #3d3d3d;
+    transition: 0.3s ease;
+}
+#input-box .delete-left:hover{
+    color: #ff1717;
+}
+/*footer*/
+
+/*input-box*/
