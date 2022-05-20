@@ -18,12 +18,6 @@ td.forEach( function(item){
 va y.target.innerHtmL td tagidagi qiymatni ilob beradi
 */
 
-tel.addEventListener('click',alertfun)
-
-function alertfun(){
-    alert("har yangi qo'ng'iroq uchun trash tugmasini bosing !!!")
-}
-
 
 //yangilash
 
