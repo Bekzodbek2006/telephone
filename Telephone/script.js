@@ -37,5 +37,6 @@ function deletefun(){
 //o`chirish 
 deleteLeft.addEventListener('click', function(){
     inp.value = inp.value.substring(0, inp.value.length - 1)
+    tel.href = tel.href.substring(0, tel.href.length - 1)
 })
 //o`chirish 
